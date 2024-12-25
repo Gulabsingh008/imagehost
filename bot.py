@@ -11,11 +11,11 @@ from db import mongo_db
 
 load_dotenv()
 
-API_ID = os.getenv('API_ID', 'your_api_id')
-API_HASH = os.getenv('API_HASH', 'your_api_hash')
-BOT_TOKEN = os.getenv('BOT_TOKEN', 'your_bot_token')
-ADMIN_ID = int(os.getenv('ADMIN_ID', 'your_admin_id'))
-LOG_GROUP_ID = -1002395548077
+API_ID = os.getenv('API_ID', '26494161')
+API_HASH = os.getenv('API_HASH', '55da841f877d16a3a806169f3c5153d3')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '7793828619:AAHnY60vTcElNV_Trmd_DE6pKi7y_RKqRO8')
+ADMIN_ID = int(os.getenv('ADMIN_ID', '7170452349'))
+LOG_GROUP_ID = -1002185903198
 
 app = Client("my_bot", bot_token=BOT_TOKEN, api_id=API_ID, api_hash=API_HASH)
 
