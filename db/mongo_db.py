@@ -2,7 +2,7 @@ import os
 from motor.motor_asyncio import AsyncIOMotorClient  
 
 
-MONGODB_URL = os.getenv('MONGODB_URL', 'your_mongodb_url')
+MONGODB_URL = os.getenv('MONGODB_URL', 'mongodb+srv://lokendrasaini9galaxy:f0TVDwu5pVrHn5i6@cluster0.zseht.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 
 class MongoDB:
     def __init__(self, url):
